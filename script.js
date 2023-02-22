@@ -1,7 +1,7 @@
 // Define a dummy JSON object with document data
 var documentData = [{
    title: "giao thoa ánh sáng",
-   link: "document1.pdf"
+   link: "/docs/de-thi-giua-hk1-mon-ly-lop-11-2.pdf"
 }, {
    title: "ánh sáng đơn sắc",
    link: "document2.pdf"
