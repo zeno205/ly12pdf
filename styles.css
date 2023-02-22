@@ -1,0 +1,72 @@
+/* Set some basic styles for the page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+/* Style the search bar */
+#search {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+/* Style the document list */
+#document-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width:95%
+}
+
+#document-list li {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#document-list li a {
+  display: block;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.2s ease;
+}
+
+#document-list li a:hover {
+  background-color: #ddd;
+}
+
+/* Center all text and elements on the page */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Center the header */
+h1 {
+  text-align: center;
+}
+
+/* Center the search bar */
+#search {
+  margin: 0 auto;
+}
+
+/* Center the document list */
+#document-list {
+  text-align: center;
+  margin-top: 15px;
+}
